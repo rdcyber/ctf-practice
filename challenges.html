@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <!-- Important Stuff -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CTF Practice - RDHS CyberHawks</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">RDHS CyberHawks CTF Practice</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="challenges.html">Challenges</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://rdcybersecurity.org/">RD Cyber Security Club</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Challenges</h1>
+        <p><b>Tip!</b> Click on a category title for a brief description of that category! Cool, right?
+      </div>
+    </div>
+    <div class="container">
+
+      <div class="alert alert-warning" role="alert"><b>Reminder:</b> These challenges will not be scored. These point values are used to indicate the difficulty/level of the challenge.</div>
+
+      <div class="container-fluid">
+      	<div class="row">
+      		<div class="col-md-2">
+            <h3 class="ctf-header"><a class="ctf-category" tabindex="0" data-toggle="popover" data-trigger="focus" title="Category: Web" data-placement="bottom" data-content="Challenges in the Web category involve examining websites and taking advantage of exploits to find a flag.">Web</a></h3>
+      		</div>
+      		<div class="col-md-10">
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#web100">
+              <span id="ctf-label">100</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#web200">
+              <span id="ctf-label">200</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#web300">
+              <span id="ctf-label">300</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#web400">
+              <span id="ctf-label">400</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#web500">
+              <span id="ctf-label">500</span>
+            </a>
+      		</div>
+      	</div>
+
+        <div class="row ctf-row">
+      		<div class="col-md-2">
+            <h3 class="ctf-header"><a class="ctf-category" tabindex="0" data-toggle="popover" data-trigger="focus" title="Category: Crypto" data-placement="bottom" data-content="Challenges in the Crytography category involve dealing with various types of ciphers, codes, etc. and finding the flag from it.">Crypto</a></h3>
+      		</div>
+          <div class="col-md-10">
+            <a class="btn btn-lg btn-primary btn-ctf" data-toggle="modal" data-target="#crypto100">
+              <span id="ctf-label">100</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">200</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">300</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">400</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">500</span>
+            </a>
+      		</div>
+      	</div>
+
+        <div class="row ctf-row">
+      		<div class="col-md-2">
+            <h3 class="ctf-header">Forensics</h3>
+      		</div>
+          <div class="col-md-10">
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">100</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">200</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">300</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">400</span>
+            </a>
+            <a class="btn btn-lg btn-primary btn-ctf">
+              <span id="ctf-label">500</span>
+            </a>
+      		</div>
+      	</div>
+
+
+
+      </div>
+
+    </div>
+    <div class="container-fluid footer">
+        &copy; 2017 River Dell Cyber Security Club
+        <br>Site Version 1.0
+    </div>
+
+    <!-- Challenge Modals -->
+      <!-- WEB -->
+      <div class="modal fade" id="web100" tabindex="-1" role="dialog" aria-labelledby="web100">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"><b>Web</b> 100</h4>
+              </div>
+              <div class="modal-body">
+                <b>Summary:</b>
+                <p>This is a sample challenge body. This contains a brief, cryptic message that "sets the scene" for the challenge.</p>
+                <div class="input-group">
+                   <input class="form-control">
+                   <div class="input-group-btn">
+                     <button type="button" class="btn btn-success" aria-label="Submit" data-toggle="tooltip" data-placement="bottom" title="Submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                     <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hint-web100" aria-expanded="false" aria-controls="hint-web100"><i class="fa fa-question-circle" aria-hidden="true"></i> Hint</button>
+                   </div>
+                 </div>
+
+                 <div class="collapse" id="hint-web100">
+                   <br>
+                    <div class="well">
+                      <b>Hint:</b> this is a hint.
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WEB -->
+        <div class="modal fade" id="crypto100" tabindex="-1" role="dialog" aria-labelledby="crypto100">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel"><b>Crypto</b> 100</h4>
+                </div>
+                <div class="modal-body">
+                  <h4>Covering all the bases</h4>
+                  <b>Summary:</b>
+                  <p>At its' base, I think it's pretty easy to solve this challenge. Some say it will take you only 64 seconds.</p>
+                  <div class="input-group">
+                     <input class="form-control">
+                     <div class="input-group-btn">
+                       <button type="button" class="btn btn-success" aria-label="Submit" data-toggle="tooltip" data-placement="bottom" title="Submit"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                       <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#hint-crypto100" aria-expanded="false" aria-controls="hint-web100"><i class="fa fa-question-circle" aria-hidden="true"></i> Hint</button>
+                     </div>
+                   </div>
+
+                   <div class="collapse" id="hint-crypto100">
+                     <br>
+                      <div class="well">
+                        <b>Hint:</b> A knowledge of common ciphers would be really helpful.
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+    <script>
+          $(function () {
+      $('[data-toggle="popover"]').popover()
+      })
+
+      $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+  </body>
+</html>

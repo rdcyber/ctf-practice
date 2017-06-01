@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  background-color: #fafafa;
+  border-top: 1px solid #d2d2d2;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+}
+
+.btn-ctf {
+  /*color: #fff;
+  background-color: #f67d26;
+  border-color: #cb671f;*/
+  width: 100px;
+  display: inline-block;
+}
+
+.ctf-label {
+  vertical-align: middle !important;
+  margin-top: 10px;
+}
+
+.ctf-row {
+
+  padding-top: 3rem;
+}
+
+.ctf-header {
+  margin-top: 1.05rem;
+}
+
+.ctf-category, .ctf-category:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+
+}
+
+
+.modal {
+text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+.modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  content: " ";
+  height: 100%;
+}
+}
+
+.modal-dialog {
+display: inline-block;
+text-align: left;
+vertical-align: middle;
+}
